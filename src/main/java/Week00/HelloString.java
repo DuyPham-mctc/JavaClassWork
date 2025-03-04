@@ -16,5 +16,9 @@ public class HelloString {
         int charactersInName = name.length();
         // Print out int variable number of character in name
         System.out.println("There are " + charactersInName + " characters in your name");
+        // String stored in the variable called hello, make the uppercase version
+        String Hello = "Hello";
+        String upperCase = Hello.toUpperCase();
+        System.out.println(upperCase);
     }
 }
