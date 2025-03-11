@@ -42,10 +42,8 @@ public class Arrays {
         String[] classrooms = { "T3010", "T3020", "T3030", "T3040", "T3050", "T3080"};
         // How many elements in the array? What's the size or length of the array? -
         int numberOfClassrooms = classrooms.length;
-        System.out.println("There are + numberOfClassrooms + classrooms");
+        System.out.println("There are "+ numberOfClassrooms +" classrooms");
 
-        // Create a string array, initialized with data
-        String[] classrooms = { "T3010", "T3020", "T3030", "T3040", "T3050", "T3080"};
         //Use a loop to print all of the data from the array
         //Notice how the loop counter is used
         for (int x = 0; x < 6; x++) {

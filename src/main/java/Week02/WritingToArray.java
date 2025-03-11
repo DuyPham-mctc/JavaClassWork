@@ -1,6 +1,7 @@
 package Week02;
 
 import static input.InputUtils.stringInput;
+import java.util.Arrays;
 
 public class WritingToArray {
     public static void main(String[] args) {
